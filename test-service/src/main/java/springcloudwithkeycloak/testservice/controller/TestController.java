@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/tst")
-
     public String test() {
         log.info("Incoming request");
         return "test";
